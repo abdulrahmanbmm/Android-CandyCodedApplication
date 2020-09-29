@@ -4,8 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
-
 import com.squareup.picasso.Picasso;
+
 
 public class InfoActivity extends AppCompatActivity {
 
@@ -39,10 +39,10 @@ public class InfoActivity extends AppCompatActivity {
     // ***
     // TODO - Task 3 - Launch the Phone Activity
     // ***
-	 public void createPhoneIntent (View view) {
+	/*public void createPhoneIntent (View view) {
         Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
         phoneIntent.setData(Uri.parse("tel:0123456789"));
-        startActivity(phoneIntent);
+        startActivity(phoneIntent);*/
     }
 
    
